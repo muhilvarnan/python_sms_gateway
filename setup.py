@@ -1,9 +1,9 @@
 from setuptools import setup, find_packages
 
 setup(name='python_sms_gateway',
-      version='1.0.0',
+      version='1.0.1',
       description='Python SMS Gateway is module used to send text sms.',
-      url='http://github.com/storborg/funniest',
+      url='https://github.com/muhilvarnan/python_sms_gateway',
       author='muhilvarnan',
       author_email='muhilvarnan.v@gmail.com',
       license='MIT',

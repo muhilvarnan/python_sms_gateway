@@ -14,14 +14,19 @@ Installation
 
 Usage
 -----
-
  1. Nexmo
        - Without Sender
-           - ``from python_sms_gateway.nexmo import NexmoConnector``
-           - ``nexmo = NexmoConnector(api_key=XXXXXXX, api_secret=XXXXXXX)``
-           - ``nexmo.send(to="+91xxxxxxxxxxx", text="hello")``
-    
+
+            .. code-block:: python
+
+               from python_sms_gateway.nexmo import NexmoConnector
+               nexmo = NexmoConnector(api_key=XXXXXXX, api_secret=XXXXXXX)
+               nexmo.send(to="+91xxxxxxxxxxx", text="hello")
+
        - With Sender
-            - ``from python_sms_gateway.nexmo import NexmoConnector``
-            - ``nexmo = NexmoConnector(api_key=XXXXXXX, api_secret=XXXXXXX, sender="+91xxxxxxxxxx")``
-            - ``nexmo.send(to="+91xxxxxxxxxxx", text="hello")``
+
+            .. code-block:: python
+
+               from python_sms_gateway.nexmo import NexmoConnector
+               nexmo = NexmoConnector(api_key=XXXXXXX, api_secret=XXXXXXX, sender="+91xxxxxxxxxx")
+               nexmo.send(to="+91xxxxxxxxxxx", text="hello")
