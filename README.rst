@@ -10,7 +10,9 @@ SMS Gateways
 
 Installation
 ------------
- 1.  pip install python_sms_gateway
+ .. code-block:: bash
+
+       pip install python_sms_gateway
 
 Usage
 -----
